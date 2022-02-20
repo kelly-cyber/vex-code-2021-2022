@@ -1,0 +1,5 @@
+This version has working odometry code, worked with SPACEBAR on discord to get odom working
+
+Problems:
+1. If the robot is turned a lot, the values aren't correct. I think it's bc the encoders are turning but the robot's global position isn't actually changing
+2. Values of encoders don't start at zero even though the global variables are set to 0.
