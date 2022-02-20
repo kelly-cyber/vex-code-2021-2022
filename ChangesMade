@@ -1,0 +1,2 @@
+Attempted moveFwdRev function based on odometry, doesn't work
+Fixed problem of encoder values starting at random position by resetting encoder values themselves, not variables, to 0 in util.cpp
